@@ -1,0 +1,74 @@
+
+.sedan{
+    color: white;
+    padding: 50px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    color: white;
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    color: white;
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+article{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+img{
+    width: 100px;
+    padding: 0px;
+}
+
+.sedan button{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 10%;
+    width: 160px;
+}
+
+.suv button{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 10%;
+    width: 160px;
+    
+}
+
+.luxury button{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 10%;
+    width: 160px;
+
+}
+
